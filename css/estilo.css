@@ -24,7 +24,7 @@ body{
 
 .contenido{
     width: 80%;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     border: 1px solid grey;
@@ -80,5 +80,8 @@ body{
     background-image: url(../images/image-header-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #ab5cdb;
+    opacity: 0.8;
 }
 
